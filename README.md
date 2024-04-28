@@ -56,7 +56,7 @@ Other requirements:
 
  The easiest way to deploy example http app is use developer view in web console or cli command.
 
- Lets start with creaqt new proroject.
+ Lets create new proroject.
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/b35d48f6-10e6-447e-92aa-f932abc919f1)
 
@@ -99,6 +99,18 @@ Other requirements:
  Lets create our new index.html default file on our SNO node.
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/00087ebc-cf27-4a2a-9d81-e6cf4139ced5)
+
+ And configmap from index.html file.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/67ef78e2-42f7-4f82-92b3-724738b32b9a)
+
+ Now we need to set our config map as volume in our deployment/http and mount as specific folder where original index.html is placed inside http container.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/3c0c909c-07f4-44c9-92c9-d11de39334a5)
+
+ 
+
+
 
  
 
