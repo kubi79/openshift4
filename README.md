@@ -11,6 +11,7 @@ Minimum resource requirements:
 
 Other requirements:
 - internet access
+- dhcpd server
 - api/api-int/apps dns in domain ocp4.openshift.local
   in my example I run dnsmasq service in small linux vm:
   
@@ -47,6 +48,8 @@ Other requirements:
  ![Screenshot 2024-04-26 181752](https://github.com/kubi79/openshift4/assets/168208701/4cdcbd32-4dbd-4e54-b64a-ad9339a2c96e)
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/44e6407c-2823-4bd4-bb25-d0cde0a81361)
+
+ Our Openshift Single Node Cluster has been installed.
  
 
 
