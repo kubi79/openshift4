@@ -12,7 +12,8 @@ Minimum resource requirements:
 Other requirements:
 - internet access
 - api/api-int/apps dns in domain ocp4.openshift.local
-  in my example I run dnsmasq service in small linux vm
+  in my example I run dnsmasq service in small linux vm:
+  
   ![image](https://github.com/kubi79/openshift4/assets/168208701/e6e7e202-4235-4ed8-8205-08c8dd325944)
 
 
