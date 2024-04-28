@@ -1,7 +1,7 @@
 # openshift4
-Deploy the openshift cluster.
+1. Deploy the openshift cluster.
 
-In below example I have installed Openshift Single Node (SNO) because it don't have resources to install full node cluster in private resources. I was using Openshift Assisted Installer method.
+In below example I have installed Openshift Single Node (SNO) because it don't have resources to install full node cluster on private resources. I was using Openshift Assisted Installer method.
 That method is the fastest way to get full functional one node cluster and doesn't need high resources.
 
 Minimum resource requirements:
@@ -13,7 +13,7 @@ Other requirements:
 - internet access
 - dhcpd server
 - api/api-int/apps dns in domain ocp4.openshift.local
-  in my example I run dnsmasq service in small linux vm:
+  in my example I run dnsmasq service in small linux vm inside network 192.168.3.0/24
   
  ![image](https://github.com/kubi79/openshift4/assets/168208701/666a9212-5980-47dc-b8c0-f0d2ce277577)
 
@@ -50,6 +50,20 @@ Other requirements:
  ![image](https://github.com/kubi79/openshift4/assets/168208701/44e6407c-2823-4bd4-bb25-d0cde0a81361)
 
  Our Openshift Single Node Cluster has been installed.
+
+3. Custom container deployment.
+
+ The easiest way to deploy example http app is use developer view in web console or cli command.
+
+ Lets start with creaqt new proroject.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/b35d48f6-10e6-447e-92aa-f932abc919f1)
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/712bd03c-75fc-42cc-b349-091d03e9eec6)
+
+ 
+
+
  
 
 
