@@ -61,6 +61,31 @@ Other requirements:
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/712bd03c-75fc-42cc-b349-091d03e9eec6)
 
+ Now we will user http oficial image on docker.io.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/5991e3c5-5850-4237-a8c7-37e6c3a657a6)
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/46d0bc8f-f285-4892-bca5-7a7ddf1fcb77)
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/c15dbf4a-fd3b-4f96-8c32-9feed7b1cf0b)
+
+ We can see that pod is in CrashLoopBackOff status. It is normal becasue the container needs root privilages and we need to make some changes.
+
+ Lets create service account.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/1495edcc-2675-4992-87f4-e769bdc5c2f5)
+
+ Now we need to set scc permission to out created serviceaccount.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/0083a9a4-eda2-4b54-ae87-3a440a8d2af4)
+
+ 
+
+
+
+
+
+
  
 
 
