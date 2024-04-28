@@ -76,7 +76,7 @@ Other requirements:
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/1495edcc-2675-4992-87f4-e769bdc5c2f5)
 
- Now we need to add scc permission to out created serviceaccount.
+ Now we need to add scc permission to our created serviceaccount.
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/0083a9a4-eda2-4b54-ae87-3a440a8d2af4)
 
