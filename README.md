@@ -88,6 +88,23 @@ Other requirements:
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/6b9ffc62-89c1-427f-9fbc-b5dda80906ea)
 
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/f531fe82-1464-440c-9740-76942be96fcd)
+
+ When we open default route deployed with deployment we will see that http service is up and running.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/51a3947c-fe3c-4367-9b19-5c6502c882d1)
+
+ The next step would be change index.html page inside the container. The easiest and afastest way will be create configmap.
+
+ Lets create our new index.html default file on our SNO node.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/00087ebc-cf27-4a2a-9d81-e6cf4139ced5)
+
+ 
+
+
+
+
  
 
 
