@@ -108,6 +108,12 @@ Other requirements:
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/3c0c909c-07f4-44c9-92c9-d11de39334a5)
 
+ Now our configmap is changing index.html file during the deployment.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/365afa1c-a9de-4ebe-8a2c-070ecb27bcc6)
+ 
+
+
  
 
 
