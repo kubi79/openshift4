@@ -51,6 +51,7 @@ Other requirements:
 
  Our Openshift Single Node Cluster has been installed.
 
+
 3. Custom container deployment.
 
  The easiest way to deploy example http app is use developer view in web console or cli command.
@@ -71,13 +72,25 @@ Other requirements:
 
  We can see that pod is in CrashLoopBackOff status. It is normal becasue the container needs root privilages and we need to make some changes.
 
- Lets create service account.
+ Lets create serviceaccount.
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/1495edcc-2675-4992-87f4-e769bdc5c2f5)
 
- Now we need to set scc permission to out created serviceaccount.
+ Now we need to add scc permission to out created serviceaccount.
 
  ![image](https://github.com/kubi79/openshift4/assets/168208701/0083a9a4-eda2-4b54-ae87-3a440a8d2af4)
+
+ The next step will be add settings for serviceaccount to our http deployment.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/c9246647-ed82-49da-b263-39c2095959fd)
+
+ After that the pod will be restarted and start properly.
+
+ ![image](https://github.com/kubi79/openshift4/assets/168208701/6b9ffc62-89c1-427f-9fbc-b5dda80906ea)
+
+ 
+
+
 
  
 
