@@ -71,20 +71,13 @@ After created image I needed to tag it and push to the docker.io
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/fb1197d2-4dd4-416d-be11-9da330c858e7)
 
-
-
-
-
-
-
-
-
-
-
-
-On SNO Openshift I have deployed Red Hat OpenShift GitOps Operator - fastest way.
+I have deployed Red Hat OpenShift GitOps Operator - fastest way. It works out of the box. I needed only add some cluster permisions to argocd service accounts.
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/c3ed32cf-3b31-4d5f-8290-5f5be591e341)
+
+Lets create first ohb deployment for production purposes.
+
+
 
 
 
