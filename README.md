@@ -63,6 +63,20 @@ to make some changes in structure. I added manifests folder wit definitions for 
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/25576dce-5c63-44df-812d-4f168d6d145b)
 
+Becasue I have no registry configured in SNO Openshift I decided to create image from your docker file and push it to docker.io registry.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/e1b84bf1-d54d-4b00-991f-a1b94282b4fa)
+
+After created image I needed to tag it and push to the docker.io
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/fb1197d2-4dd4-416d-be11-9da330c858e7)
+
+
+
+
+
+
+
 
 
 
