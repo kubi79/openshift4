@@ -51,6 +51,31 @@ Other requirements:
 
  Our Openshift Single Node Cluster has been installed.
 
+2. Application Deployment and Management
+As a first step I forked application https://github.com/nordcloud/openshift-assignment/ to my git on https://github.com/kubi79/openshift-assignment
+to make some changes in structure. I added manifests folder wit definitions for deployment service and route.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/5e4eed1f-7768-40f3-8fbe-24e1463600b8)
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/5257aabc-06ad-43c3-9ce1-5ce06bc2afd1)
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/09bbfeb2-9932-4782-a087-a50648416ecc)
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/25576dce-5c63-44df-812d-4f168d6d145b)
+
+
+
+
+
+
+On SNO Openshift I have deployed Red Hat OpenShift GitOps Operator - fastest way.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/c3ed32cf-3b31-4d5f-8290-5f5be591e341)
+
+
+
+
+   
 
 3. Custom container deployment.
 
