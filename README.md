@@ -209,6 +209,31 @@ We can also create route pointing to two svc and applying weight load between th
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/41e1231c-f2f9-4ec4-84c6-73c30972f046)
 
+5. Disaster Recovery and High Availability
+
+In case and DR and HA we we should plan rules from pod level.
+- replica to prevent individual pod from failure
+- anti affinity rules to be sure that pods are disributed between node
+- pod disruption budget to set maxunavailable and min available
+
+There should be also consider node failure. In case of lost node duplicted pods should be spread across nodes
+then will be sure that application still working.
+
+In case cluster failure we need to be prepared to recover control plane node. The key is here to perform etcd backup and keep in
+some safe place for instance on external storage. Etcd backup is a quick setup. Etcd keeps all neede data to restore cluster.
+By default we got 3 control pane nodes where etcd is running. If one node will fail. Two will keep cluster working. If two nodes are
+failed the cluster will be not fuctioning properly.
+Also importan is to deploy deployments by gitops tools. It can speed up restore app in case o failure.
+
+I try to describe how backup and ha was working in my project whare I was working and installed all envronments.
+We had clusters placed on vmware hypervizor. Every cluster was deployed in IPI method. In that case nodes could be added or removed in one click. Addinf new node was taking around 4 minutes.
+Every claster was placed on SSD storeage on vmware. Production test and development clusters was placed on different vmware clusters.
+For production we had doubled cluster one was active second was standby. Both keeped the same version of applications deployed by gitops.
+Both clusters had access to the same storages mans pvc's were available on both clusters and application could using them. In case of failure or switchover dns was performedby network team.
+
+
+
+
 
 
 
