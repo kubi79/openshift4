@@ -75,14 +75,34 @@ I have deployed Red Hat OpenShift GitOps Operator - fastest way. It works out of
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/c3ed32cf-3b31-4d5f-8290-5f5be591e341)
 
-Lets create first ohb deployment for production purposes.
+For deployments production and testing purposes I have added second branch to git. Main branch will be used for production purposes and branch testing
+for second deployment means testing. I also need to change route url in branch testing for ohb-tessting.apps.ocp4.openshift.local to avoid have the same route name after deployment.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/3e7ca05d-047c-46d4-8570-79b181802d8e)
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/3ab2c2be-10c7-4037-a9fe-9eb36df7afcf)
+
+Lets create first deployment for prod from branch main.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/06f231a1-23ea-466e-84b3-2bc5573e86ad)
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/d09aa530-4c85-4666-b3d5-09ffb668cb9b)
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/30fe8c62-31fc-466f-96e8-d15193ddfb37)
+
+After sync we can see:
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/4f3c39ea-a830-41cb-ac74-a6fc0f72d91d)
+
+Lets create second deployment for testing purposes from branch testing.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/316aaa88-67b1-4e5c-8528-68844375ffe9)
+
+After sync we see:
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/a9e11807-558f-4af2-952b-2305d43cbb8c)
 
 
-
-
-
-
-   
 
 3. Custom container deployment.
 
