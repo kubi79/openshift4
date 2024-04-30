@@ -197,7 +197,7 @@ Lets modify orginal route to point to our new application.We can modify route be
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/02caf4ae-1c5c-4f18-b5cd-40a5dccb6474)
 
-I that case one deployment second is exposed to access and first deployment is not.
+I that case one deployment second is exposed to access and first deployment is not what allow us to do maintenance tasks.
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/0a189690-1918-438c-a88e-51bf5ca5ffcb)
 
