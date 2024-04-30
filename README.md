@@ -193,11 +193,7 @@ Existing route is pointing to old app:
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/08c67288-760e-419e-a1ca-86f1e7cf1731)
 
-Lets modify orginal route to point to our new application.
-
-![image](https://github.com/kubi79/openshift4/assets/168208701/d0607b76-dcd7-4435-b982-a8c6179f07f5)
-
-We can modify route between two deployments:
+Lets modify orginal route to point to our new application.We can modify route between two deployments:
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/02caf4ae-1c5c-4f18-b5cd-40a5dccb6474)
 
