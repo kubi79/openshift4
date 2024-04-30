@@ -225,7 +225,7 @@ By default we got 3 control pane nodes where etcd is running. If one node will f
 failed the cluster will be not fuctioning properly.
 Also important is to deploy deployments by gitops tools. It can speed up restore app in case o failure.
 
-I will try to describe how backup and ha was working in my project whare I was working and installed all envronments.
+I will try to describe how backup and ha was working in my project whare I was working and prepared all envronments.
 We had clusters placed on vmware hypervisors. Every cluster was deployed in IPI method. In that case nodes could be added or removed in one click. Adding new node was taking around 4 minutes.
 Every claster was placed on SSD storeage on vmware. Production test and development clusters was placed on different vmware clusters.
 For production we had doubled cluster one was active second was standby. Both keeped the same version of applications deployed by gitops.
