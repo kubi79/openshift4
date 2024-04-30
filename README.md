@@ -102,6 +102,9 @@ After sync we see:
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/a9e11807-558f-4af2-952b-2305d43cbb8c)
 
+Both deployment are deployed and apps are working.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/fe41afa1-4781-454a-aaef-4c44424b5ce7)
 
 
 3. Custom container deployment.
