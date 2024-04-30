@@ -201,6 +201,18 @@ I that case one deployment second is exposed to access and first deployment is n
 
 ![image](https://github.com/kubi79/openshift4/assets/168208701/0a189690-1918-438c-a88e-51bf5ca5ffcb)
 
+We can also create route pointing to two svc and applying weight load between them.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/e9939006-c132-4d02-ab32-4d616a9830ef)
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/683e36aa-171f-44d9-b70c-5ee246c6fec7)
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/41e1231c-f2f9-4ec4-84c6-73c30972f046)
+
+
+
+
+
 
 
 
