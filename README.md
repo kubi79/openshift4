@@ -168,6 +168,55 @@ Both deployment are deployed and apps are working.
  ![image](https://github.com/kubi79/openshift4/assets/168208701/365afa1c-a9de-4ebe-8a2c-070ecb27bcc6)
 
  The http deployment proces has finished.
+
+ 4. Advanced Deployment Strategies
+
+The primary steps to have blue-green deployment strategy is have two separate deployments. First old version of the application
+and second the new version of the application.
+For prepare some showcase we use http application deployed in point3.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/3faeec4a-1fb1-4827-92ce-d80fb5d9f83d)
+
+Lets create second http deployment named http2.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/4e7ffbdf-8f63-4432-815c-db6b2e2dc1af)
+
+And fix root permission issue:
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/0ab9df5d-125a-4687-a6f6-480aa04f0fe7)
+
+Now we have two different deployment with two routes lets remove route for http2:
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/9aafb4bf-8471-401e-834b-3fcddc1cb2f1)
+
+Existing route is pointing to old app:
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/08c67288-760e-419e-a1ca-86f1e7cf1731)
+
+Lets modify orginal route to point to our new application.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/d0607b76-dcd7-4435-b982-a8c6179f07f5)
+
+We can modify route between two deployments:
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/02caf4ae-1c5c-4f18-b5cd-40a5dccb6474)
+
+I that case one deployment second is exposed to access and first deployment is not.
+
+![image](https://github.com/kubi79/openshift4/assets/168208701/0a189690-1918-438c-a88e-51bf5ca5ffcb)
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
